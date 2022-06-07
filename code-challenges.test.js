@@ -104,9 +104,9 @@ describe("no_Dupes", () => {
 //Test Suites: 1 failed, 1 total
 const no_Dupes = ([array1,array2]) => {
 return [ ...array1,...array2]
-}
+}    
 
 no_Dupes(testArray1)
 no_Dupes(testArray2)
 
-//TypeError: array1 is not iterable
+//TypeError: array1 is not iterable   

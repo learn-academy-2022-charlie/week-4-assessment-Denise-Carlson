@@ -52,7 +52,7 @@ In most languages like javascript, SQL, Java once you declare a function you hav
 1. Instance Variable: Variable defined in a class. Every object of that class has a copy of it.
 
 2. PostgreSQL: This language is based on SQL and is used in databases for making structures like tables and doing queries. Open source relational database which supports SQL and JSON. used as a database for many applications and uses 
-
+    
 3. Ruby on Rails: A backend framework built on Ruby.
 Contains everything needed to make a database-backed web application using model view controller or MVC pattern. Allows use of JSON, XML as well as HTML, CSS and javascript for user interfaces.
 4. ORM: Object relational mapping. Allows you to write and manipulate data from a database using OOP paradigm. Objects are used to connect SQL and OOP concepts. An example is Django. ORM's map to tables in the database virtually. 

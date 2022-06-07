@@ -64,6 +64,6 @@ palindrome_tester2 = 'LEARN'
 p pal ('Racecar')
 p pal ('Learn')
 p pal ('Rotator')
-# looking at the words I can see that the first two letters are reversed in the last 2 letters of the word or string of words to form the pallidrome. 
+# looking at the words I can see that the first two letters are reversed in the last 2 letters of the word or string of words to form the pallidrome.   
 
  
