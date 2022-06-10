@@ -3,6 +3,7 @@
 
     # --------------------1) Create a method that takes in a number and determines if the number is even or odd. Use the test variables provided.
 
+
     # num1 = 7
     # Expected output: '7 is odd'
     #num2 = 42
@@ -27,6 +28,9 @@
     p is_odd_or_even ( 7)
     p is_odd_or_even ( 42)
     p is_odd_or_even ( 21)
+
+
+
 
 
 
@@ -66,4 +70,6 @@
     p pal ('Rotator')
     # looking at the words I can see that the first two letters are reversed in the last 2 letters of the word or string of words to form the pallidrome.   
 
-    
+  
+
+

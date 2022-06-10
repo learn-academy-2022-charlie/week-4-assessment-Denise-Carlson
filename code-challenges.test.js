@@ -1,6 +1,7 @@
+
     // ASSESSMENT 4: JavaScript Coding Practical Questions with Jest
 
-    const { array, describe } = require("yargs")
+    //const { array, describe } = require("yargs")
 
     // Please read all questions thoroughly
     // Pseudo coding is REQUIRED
@@ -27,15 +28,15 @@
         })
         //Test Suites: 1 failed, 1 total  ReferenceError: expected is not defined
         //Test Suites: 1 passed, 1 total 
-        //  let colorArray = [] 
-        //  const expected = (array) => {
-        //      return [].shift()
-        //  }
-        //      let removedFirst = () => {
-        //         return expected.sort()
+         let colorArray = [] 
+         const expected = (array) => {
+             return [].shift()
+         }
+             let removedFirst = () => {
+              return expected.sort()
             
-        //      }
-        //      colorArray(removedFirst) 
+             }
+             colorArray(removedFirst) 
             
         
             
@@ -54,7 +55,8 @@
     // Expected output example (can be a different order): ["saffron", "aquamarine", "periwinkle", "indigo", "ochre"]
 
 
-    // b) Create the function that makes the test pass.
+
+
 
 
 
@@ -65,6 +67,9 @@
     //first step would be to input an array containing numbers then take those numbers and figure out which one is the largest number and sort from largest to smallest in the array. Output would be the smallest number first followed by the largest number contained in the array. I can use a method called slice to do this. 
     describe("minMax", () => {
         it("takes an array and returns an array of the minimum and maximum numbers in that order", () => {
+        const nums1 = [3, 56, 90, -8, 0, 23, 6]
+    // Expected output: [-8, 90]
+        const nums2 = [109, 5, 9, 67, 8 , 24]
             expect([3, 56, 90, -8, 0, 23, 6]).toEqual([-8, 90])
             expect([109, 5, 9, 67, 8, 24]).toEqual([5, 109])
             // this test isn't working it says no argument.
@@ -74,16 +79,16 @@
     numArray.slice().sort (function smallLarge(a,b) {
         return b - a
     })
-    //const nums1 = [3, 56, 90, -8, 0, 23, 6]
-    // Expected output: [-8, 90]
-    //const nums2 = [109, 5, 9, 67, 8, 24]
+    
     // Expected output: [5, 109]
+
 
 
     // b) Create the function that makes the test pass.
 
 
     // --------------------3) Create a function that takes in two arrays as arguments and returns one array with no duplicate values. STRETCH: Use the spread operator to pass in a dynamic number of arguments.
+
 
     // Pseudocode input is 2 different array containing some of the same numbers. I need to take that array and create an function that outputs the array with no duplicate values. I can use .filter to do this.
     // a) Create a test with an expect statement using the variables provided.
@@ -110,3 +115,4 @@
     no_Dupes(testArray2)
 
     //TypeError: array1 is not iterable   
+
